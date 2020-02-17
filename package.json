@@ -1,0 +1,25 @@
+{
+  "name": "meme-o-test",
+  "version": "1.0.0",
+  "description": "proyecto memotest para el curso r-argentina-programa",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AChareun/meme-o-test.git"
+  },
+  "author": "Alonso Chareun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AChareun/meme-o-test/issues"
+  },
+  "homepage": "https://github.com/AChareun/meme-o-test#readme"
+}
