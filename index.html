@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Meme-o-Test</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel='stylesheet' href='src/index.css'>
+</head>
+
+<body>
+    <div id="interfaz">
+        <div class="container alert alert-dark border-dark">
+            <div class="row align-items-center">
+                <div class="col-sm">
+                    <div class="btn btn-primary border-dark" role="alert">Empezar</div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="alert alert-light border-dark m-0" id="turnos">Turnos: -</div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="alert alert-danger border-dark m-0" id="temporizador" role="alert">Tiempo:</div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="alert alert-success border-dark m-0" id="puntaje" role="alert">Puntaje:</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="tablero">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-sm-2 p-1">
+                    <div class="carta reverso"></div>
+                </div>
+                <div class="col-sm-2 p-1">
+                    <div class="carta reverso"></div>
+                </div>
+                <div class="col-sm-2 p-1">
+                    <div class="carta reverso"></div>
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-sm-2 p-1">
+                    <div class="carta reverso"></div>
+                </div>
+                <div class="col-sm-2 p-1">
+                    <div class="carta reverso"></div>
+                </div>
+                <div class="col-sm-2 p-1">
+                    <div class="carta reverso"></div>
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-sm-2 p-1">
+                    <div class="carta reverso"></div>
+                </div>
+                <div class="col-sm-2 p-1">
+                    <div class="carta reverso"></div>
+                </div>
+                <div class="col-sm-2 p-1">
+                    <div class="carta reverso"></div>
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-sm-2 p-1">
+                    <div class="carta reverso"></div>
+                </div>
+                <div class="col-sm-2 p-1">
+                    <div class="carta reverso"></div>
+                </div>
+                <div class="col-sm-2 p-1">
+                    <div class="carta reverso"></div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="fin-juego oculto">
+        <div class="card text-center bg-light">
+            <div class="card-header">
+              Juego finalizado
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Felicitaciones!</h5>
+              <p class="card-text"></p>
+            </div>
+            <div class="card-footer">
+                Para volver a jugar, recarga la página
+            </div>
+          </div>
+    </div>
+
+
+    <script src='src/index.js'></script>
+</body>
+</html>
