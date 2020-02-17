@@ -1,0 +1,40 @@
+.carta {
+    opacity: 1;
+    transition: all .3s;
+    border: 1px solid black;
+    height: 150px;
+    width: 150px;
+    cursor: pointer;    
+}
+
+.harold {
+    background-image: url(img/harold.png);
+}
+
+.conan {
+    background-image: url(img/conan.png);
+}
+
+.pikachu {
+    background-image: url(img/surprised-pikachu.png);
+}
+
+.cat {
+    background-image: url(img/crying-cat.png);
+}
+
+.isfine {
+    background-image: url(img/this-is-fine.png);
+}
+
+.atrap {
+    background-image: url(img/its-a-trap.png);
+}
+
+.reverso {
+    background-image: url(img/card-reverse.png);
+}
+
+.oculto {
+    display: none;
+}
